@@ -1,0 +1,29 @@
+
+------------------------------------------------------------
+
+touch hello.rb //rubyファイル作成
+touch hello.py //pythonファイル作成
+touch hello.php //phpファイル作成
+
+
+------------------------------------------------------------
+
+sqlite3 //データベースの作成方法
+
+sqlite3 test.db//test.dbというデータベースファイルを作る
+
+create table user(name, email); ユーザーというテーブルの構造を作成
+.tables //テーブルを表示
+.schema users//テーブルの構造を見る
+
+.exit//抜ける
+
+
+------------------------------------------------------------
+
+mysql
+
+mysql-ctl cli// mysqlに移行
+create datebase myapp;//データベース作成
+show datebases;//データベースを表示
+\q//抜ける
